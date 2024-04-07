@@ -17,7 +17,7 @@
         | <strFinalText> |
       Examples:
         | strUsername | strPassword | strFinalText        |
-        | Pragma34567 | pragmaTest1 | Sign up successful. |
+        | Pragma345671 | pragmaTest1 | Sign up successful. |
 
     @scenario2
     Scenario Outline: Kevin makes a fail registration on the page
@@ -29,7 +29,7 @@
         | <strFinalText> |
       Examples:
         | strUsername | strPassword | strFinalText             |
-        | Pragma34567 | pragmaTest1 | This user already exist. |
+        | Pragma345671 | pragmaTest1 | This user already exist. |
 
     @scenario3
     Scenario Outline: Kevin fails logs into the page
@@ -51,7 +51,7 @@
       Then Kevin successful Login
       Examples:
         | strUsername  | strPassword |
-        | Pragma345677 | pragmaTest1 |
+        | Pragma3456771 | pragmaTest1 |
 
 
     @scenario5
@@ -66,7 +66,7 @@
         | <strFinalText> |
       Examples:
         | strUsername  | strPassword | strFinalText   |
-        | Pragma345677 | pragmaTest1 | Product added. |
+        | Pragma3456771 | pragmaTest1 | Product added. |
 
 
     @scenario6
@@ -83,4 +83,4 @@
       Then Validate product list
       Examples:
         | strUsername  | strPassword | strFinalText   |
-        | Pragma345677 | pragmaTest1 | Product added. |
+        | Pragma3456771 | pragmaTest1 | Product added. |
